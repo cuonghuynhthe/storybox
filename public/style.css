@@ -1,0 +1,61 @@
+body{
+	padding: 1px 20px 20px 20px;
+}
+
+.comment-box{
+	background: rgba(20, 29, 78, 0.8);
+	padding: 1px 20px 20px 20px;
+	min-height: 300px;
+	width: 700px;
+}
+.comment-box > h3{
+	color: rgba(255,255,255,0.8);
+}
+.comment-box > img{
+	margin-left: 220px;
+    height: 200px;
+    width: 200px;
+}
+.comment-box > h4{
+	color: rgba(0,188,212,1);
+	text-transform: uppercase;
+}
+.comment-list{
+	 -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+.comment {
+	color: rgba(255,255,255,0.8);
+	height: 100px;
+}
+.comment .comment-header{
+	text-transform: uppercase;
+	padding-bottom: 5px;
+	border-bottom: 3px solid #FFF;
+}
+.comment .comment-footer{
+	position: relative;
+	float: right;
+}
+
+.comment .comment-footer > a{
+	color: rgba(255,255,255,0.8);
+	text-transform: uppercase;
+}
+.show-hide-comments{
+ float: right;
+ margin-top: -35px;
+}
+.margin-bottom{
+ margin-bottom: 10px
+}
+.comment-form > h3 {
+ color: rgba(0,188,212,1);
+}
